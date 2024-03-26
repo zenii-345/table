@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Tables</title>
+</head>
+
+<style type="text/css">
+	thead{
+		background: white;
+		font-family: serif;
+		font-size: 13px;
+		box-shadow: 4px 4px 4px whitesmoke;
+
+	}
+
+	thead tr th{
+		letter-spacing: 0.2rem;
+		vertical-align: top;
+		border:  #aab7b8;
+		padding: 13px;
+		font-family: serif;
+		font-size: 13x;
+
+	}
+
+	td:nth-child(5n+1){
+		color: blue;
+	}
+
+	td:nth-child(5n+4){
+		color: white;
+		border-radius:5px;
+	}
+
+	tr:nth-child(even){
+		background-color:  whitesmoke;
+
+	}
+
+	table{
+		 border-collapse:collapse; 
+		 border-spacing: 0;
+		 border: #aab7b8;	
+		 box-shadow: 4px 4px 4px whitesmoke;	
+		
+	}
+	
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+		<table align="center" cellspacing="20px" cellpadding="10px">
+			
+			<thead align="center"  border-collapse="collapse" >
+				<tr>
+					<th >INVOICE
+					</th>
+					<th>NAME
+					</th>
+					<th>DATE
+					</th>
+					<th>PAYMENT STATUS
+					</th>
+					<th>AMOUNT
+					</th>
+					<th>ACTION
+					</th>
+				</tr>	
+			</thead>
+
+			<tbody align="center">
+				<TR>
+					<td>NA</td>
+					<td>Prathem</td>
+					<td>01/04/2022</td>
+					<td bgcolor="orange" >Not Completed</td>
+					<td>22,000</td>
+					<td>
+					    <button><img src="pencil.png" width="16px" height="16px"></button>
+					    <button><img src="trash.jpg" width="16px" height="16px"></button>
+					</td>
+				</TR>
+
+				<TR>
+					<td>INV_1</td>
+					<td>Doe</td>
+					<td>01/04/2022</td>
+					<td bgcolor="green" > Completed</td>
+					<td>23,000</td>
+					<td>
+						<button><img src="pencil.png" width="16px" height="16px"></button>
+					    <button><img src="trash.jpg" width="16px" height="16px"></button>
+					</td>
+				</TR>
+
+				<TR>
+					<td>INV_2</td>
+					<td>Cristian</td>
+					<td>01/04/2022</td>
+					<td bgcolor="blue" >Processing</td>
+					<td>28,000</td>
+					<td>
+					    <button><img src="pencil.png" width="16px" height="16px"></button>
+					    <button><img src="trash.jpg" width="16px" height="16px"></button>
+					</td>
+				</TR>
+
+				<TR>
+					<td>INV_3</td>
+					<td>Kiran</td>
+					<td>01/04/2022</td>
+					<td bgcolor="blue" >Processing</td>
+					<td>25,000</td>
+					<td>
+						<button><img src="pencil.png" width="16px" height="16px"></button>
+					    <button><img src="trash.jpg" width="16px" height="16px"></button>
+					</td>
+				</TR>
+
+				<TR>
+					<td>INV_4</td>
+					<td>Kite</td>
+					<td>01/04/2022</td>
+					<td bgcolor="green" >Completed</td>
+					<td>22,000</td>
+					<td>
+						<button><img src="pencil.png" width="16px" height="16px"></button>
+					    <button><img src="trash.jpg" width="16px" height="16px"></button>
+					</td>
+				</TR>
+
+			</tbody>
+		</table>
+</body>
+</html>
